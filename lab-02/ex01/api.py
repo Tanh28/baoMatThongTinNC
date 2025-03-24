@@ -114,4 +114,4 @@ def transposition_decrypt():
     return jsonify({'decrypted_text': decrypted_text})
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=1010, debug=True)
+    app.run(host="127.0.0.1", port=5000, debug=True)
